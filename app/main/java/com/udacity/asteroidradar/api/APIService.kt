@@ -16,7 +16,7 @@ enum class AsteroidAPIFilter(val value: String) {
 }
 
 private const val BASE_URL = "https://api.nasa.gov/"
-const val API_KEY = "trWWvP6OhjJlJU8HwmJSUOCzKCukvUmBXc753e4A"
+const val API_KEY = ""
 
 private val moshi = Moshi.Builder()
     .add(KotlinJsonAdapterFactory())
